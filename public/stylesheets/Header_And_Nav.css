@@ -1,0 +1,162 @@
+body {
+  font-family: 'Tilt Neon', cursive;
+}
+
+::selection {
+  background-color: white;
+  color: #ff6a03;
+}
+
+
+#Nav_Top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fe6803;
+}
+
+#Nav_Left {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0.2em 0em;
+  font-size: 3.3em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: 'Alkatra', cursive;
+  box-sizing: border-box;
+}
+
+#Nav_Left #Name {
+  margin-left: 1em;
+}
+
+#Nav_Left #Name a {
+  color: white;
+  padding: 0 0.4em;
+  font-size: 0.55em;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+}
+
+#Nav_Last {
+  display: flex;
+  align-items: center;
+}
+
+#Nav_Last span {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#Nav_Last div {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  font-size: 30px;
+  margin: 0 1em 0;
+}
+
+#Nav_Last a {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#Nav_Bottom {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: 'Alkatra', cursive;
+  padding: 0em 1em;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin: 0.3em 20em 0.3em;
+}
+
+#Nav_Bottom a {
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: border-bottom .5s ease;
+}
+
+p {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 3em 1em 1.5em;
+  color: #f90303;
+}
+
+p span {
+  color: black;
+}
+
+
+#menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+#menu-bar ul li {
+  width: 5em;
+  margin: 0.1em 0.1em;
+  padding: 0.1em 0.1em;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+#menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#menu-bar ul li:hover {
+  border-radius: 3px;
+}
+
+#sub-menu-1 {
+  display: none;
+  border-radius: 0.2em;
+  border: 0.05em solid rgb(113, 112, 112);
+  width: 20em;
+  z-index: 1;
+  transform: translateX(-8em);
+}
+
+#sub-menu-1 ul li a {
+  color: rgb(113, 112, 112);
+  padding: 0.1em 1.2em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+#sub-menu-1 ul li {
+  margin: 0.5em;
+  text-align:center;
+  width: 11em;
+}
+
+
+#sub-menu-1 ul li a:hover {
+  color: #ff6a03;
+  background: #e7e7e7;
+  border-radius: 0.2em;
+}
+
+#menu-bar ul li:hover #sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+#menu-bar ul li:hover #sub-menu-1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0em;
+}

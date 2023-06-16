@@ -1,0 +1,94 @@
+#Heading p {
+    margin: 0.7em 0em;
+}
+
+#Products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#Products .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2em 1.5em;
+    width: 18em;
+    max-height: 48em;
+    text-align: center;
+    border: none;
+}
+
+#Products .card img {
+    position: relative;
+    width: 18em;
+    height: 20em;
+    margin: 1.3em 0em;
+    padding: 1.5em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.4em;
+}
+
+#Products .card #Product_name,
+#Price {
+    font-size: 1.6em;
+    margin: 0.3em 0.2em;
+    text-align: left;
+}
+
+#Products .card #Product_name {
+    color: black;
+}
+
+#Products .card #Price {
+    color: #f90303;
+}
+
+#Products .card #Price span {
+    font-size: 0.8em;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    text-decoration: line-through;
+}
+
+#ADD_TO_CART_BUTTON {
+    color: white;
+    background-color: #fe6803;
+    padding: 0.5em;
+    margin: 2em 2em;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 0.7em;
+}
+
+#Products .card #Offer_Banner {
+    display: inline;
+    position: absolute;
+    top: 1.3em;
+    left: 0em;
+    z-index: 2;
+    width: 7em;
+    margin: 0em;
+    color: white;
+    font-size: 1.5em;
+    background-color: #fe0307;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+#Products .card form {
+    display: flex;
+    justify-content: center;
+}
+
+#Payment{
+    display:inline-block;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding:0.5em 0.5em;
+    margin: 0 45%;
+    background-color: #fe6803;
+    border-radius: 0.5em;
+}

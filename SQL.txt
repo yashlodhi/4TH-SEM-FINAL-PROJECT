@@ -1,0 +1,432 @@
+
+
+
+
+CREATE TABLE cat_food(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES (' 1', 'Whiskas Adult Tuna', '300', 'IMAGES_CAT_FOOD/F1');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Royal Canin Fit 32', '350', 'IMAGES_CAT_FOOD/F2');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Whiskas Adult Mackerel', '400', 'IMAGES_CAT_FOOD/F3');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Orijen Cat & Kitten', '255', 'IMAGES_CAT_FOOD/F4');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'N&D Grain Free Fish Orange Adult Cat', '299', 'IMAGES_CAT_FOOD/F5');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'N&D Grain Free Chicken Adult Cat Food', '399', 'IMAGES_CAT_FOOD/F6');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Meo Sterile Dry  cat Food', '249', 'IMAGES_CAT_FOOD/F7');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'ME-O Salmon Adult Cat Food', '349', 'IMAGES_CAT_FOOD/F8');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Royal Canine Vet Diet Urinary Care', '500', 'IMAGES_CAT_FOOD/F9');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Royal Canin Savour Exigent', '199', 'IMAGES_CAT_FOOD/F10');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Royal Canin Sensible 33', '199', 'IMAGES_CAT_FOOD/F11');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Royal Canin Persian Adult Wet', '299', 'IMAGES_CAT_FOOD/F12');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Royal Canin Sterilised 7+', '500', 'IMAGES_CAT_FOOD/F13');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Royal Caninn Indoor 27', '499', 'IMAGES_CAT_FOOD/F14');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Royal Canin Persian Adult', '2300', 'IMAGES_CAT_FOOD/F15');
+UPDATE `petshop`.`cat_food` SET `product_name` = 'Royal Canin Indoor 27' WHERE (`product_id` = '14');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Whiskas Skin and Coat', '220', 'IMAGES_CAT_FOOD/F17');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Whiskas Grilled Saba', '220', 'IMAGES_CAT_FOOD/F18');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Whiskas Hairball Controlled', '220', 'IMAGES_CAT_FOOD/F19');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Matisse NEUTERED SALMON', '1170', 'IMAGES_CAT_FOOD/F16');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'N&D Quinoa Grain Free Cat WEIGHT MANAGEMENT LAMB', '690', 'IMAGES_CAT_FOOD/F20');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'N&D Grain Free Fish Orange Adult Cat Food', '690', 'IMAGES_CAT_FOOD/F21');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'N&D Grain Free Lamb Blueberry Adult Cat Food', '690', 'IMAGES_CAT_FOOD/F22');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Whiskas Kitten Tuna in Jelly', '45', 'IMAGES_CAT_FOOD/F23');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'Sheba Skipjack & Salmon', '48', 'IMAGES_CAT_FOOD/F24');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'Sheba Fish with Dry Bonito Flake', '44', 'IMAGES_CAT_FOOD/F25');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('26', 'Sheba Maguro & Bream', '48', 'IMAGES_CAT_FOOD/F26');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('27', 'Sheba Premium Wet Cat Food - Tuna Pumpkin & Carrot In Gravy', '714', 'IMAGES_CAT_FOOD/F27');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('28', 'Me-O Kitten Tuna & Sardine Wet Cat Food (Pack of 12)', '408', 'IMAGES_CAT_FOOD/F28');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('29', 'Whiskas Adult Salmon in Gravy', '450', 'IMAGES_CAT_FOOD/F29');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('30', 'Royal Canin Instinctive Gravy', '80', 'IMAGES_CAT_FOOD/F30');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'Whiskas Ocean Fish Gravy Wet Food', '29', 'IMAGES_CAT_FOOD/F31');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'Me-O Delite Tuna With Bonito in Jelly Wet Cat Food (Pack of 12)', '612', 'IMAGES_CAT_FOOD/F32');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'Me-O Seafood in Jelly Adult Cat Can Food', '102', 'IMAGES_CAT_FOOD/F33');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'Me- O Tuna & White Fish Gravy - Pack of 12', '408', 'IMAGES_CAT_FOOD/F34');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'Royal Canin Instinctive Loaf', '1122', 'IMAGES_CAT_FOOD/F35');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('36', 'Whiskas Tasty Mix Tuna Kanikama And Carrot in Gravy', '38', 'IMAGES_CAT_FOOD/F36');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('37', 'N&D Prime Grain Free CHICKEN & POMEGRANATE KITTEN WET FOOD', '40', 'IMAGES_CAT_FOOD/F37');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('38', 'Me-O Sterilised Pouch (Pack of 12)', '410', 'IMAGES_CAT_FOOD/F38');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('39', 'Me-O Delite Tuna with Chicken Flake in Jelly Wet Cat Food (Pack of 12)', '650', 'IMAGES_CAT_FOOD/F39');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('40', 'Royal Canin Instinctive 7 +', '969', 'IMAGES_CAT_FOOD/F40');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('41', 'Royal Canin Digest Sensitive Gravy', '85', 'IMAGES_CAT_FOOD/F41');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('42', 'Royal Canin Sterilised Gravy', '106', 'IMAGES_CAT_FOOD/F42');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('43', 'Royal Canin Hairball Care Gravy', '89', 'IMAGES_CAT_FOOD/F43');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('44', 'Sheba Tuna Fillets & Whole Prawns in Gravy', '108', 'IMAGES_CAT_FOOD/F44');
+INSERT INTO `petshop`.`cat_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('45', 'Royal Canin Ultra Light Gravy', '80', 'IMAGES_CAT_FOOD/F45'); 
+
+
+
+
+
+CREATE TABLE cat_toy(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Catnip Ball with Bell', '250', 'IMAGES_CAT_TOYS/T1');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Kitty Tails Cat Toy', '275', 'IMAGES_CAT_TOYS/T2');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Playing Rod with Leather Straps & Feathers', '150', 'IMAGES_CAT_TOYS/T3');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Dental Cherries with Catnip', '395', 'IMAGES_CAT_TOYS/T4');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', '2 Ball On a Rope Sisal with Bell', '150', 'IMAGES_CAT_TOYS/T5');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Cat toy with Sisal Rope & rattler', '200', 'IMAGES_CAT_TOYS/T6');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Cat toys with Silvervine', '170', 'IMAGES_CAT_TOYS/T7');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Cat teaser Stick with feathers & bell', '225', 'IMAGES_CAT_TOYS/T8');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Kitty Roller', '250', 'IMAGES_CAT_TOYS/T9');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Mouse Ball', '295', 'IMAGES_CAT_TOYS/T10');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Kitty Fun Balls', '350', 'IMAGES_CAT_TOYS/T11');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Catnip Jungle Balls', '275', 'IMAGES_CAT_TOYS/T12');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Sisal Ball', '150', 'IMAGES_CAT_TOYS/T13');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Valerian Cushion Cotton', '195', 'IMAGES_CAT_TOYS/T14');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Cat Banana Chew Toy', '525', 'IMAGES_CAT_TOYS/T15');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Kitty Chew Wheel', '245', 'IMAGES_CAT_TOYS/T16');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Catnip Crinkles', '250', 'IMAGES_CAT_TOYS/T17');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Catnip Cricket', '250', 'IMAGES_CAT_TOYS/T18');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Orka Catnip Infused Spool', '250', 'IMAGES_CAT_TOYS/T19');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Crinkle Berries', '449', 'IMAGES_CAT_TOYS/T20');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Feathered Kitty Wobbler', '399', 'IMAGES_CAT_TOYS/T21');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Catnip Chew Mice', '349', 'IMAGES_CAT_TOYS/T22');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Nighttime Cuddle Toy', '329', 'IMAGES_CAT_TOYS/T23');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'Rainbow Caterpillar Cat Toy', '199', 'IMAGES_CAT_TOYS/T24');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'Stuffing Free Mini Monkey', '499', 'IMAGES_CAT_TOYS/T25');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('26', 'Feather Fish Cat Toy', '299', 'IMAGES_CAT_TOYS/T26');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('27', 'Kitty Freak Ladybug', '250', 'IMAGES_CAT_TOYS/T27');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('28', 'Fresh Veggies Felted Cat Toy', '299', 'IMAGES_CAT_TOYS/T28');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('29', 'Wriggle Up Mouse', '200', 'IMAGES_CAT_TOYS/T29');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('30', 'Playing Rod with Mouse', '212', 'IMAGES_CAT_TOYS/T30');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'Playing Rod with Smiley', '212', 'IMAGES_CAT_TOYS/T31');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'Cat’s Cheese with playing rod & 3 toy balls', '559', 'IMAGES_CAT_TOYS/T32');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'Tower Of Track, Three Level Active Cat Toy', '1559', 'IMAGES_CAT_TOYS/T33');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'Running Mouse', '499', 'IMAGES_CAT_TOYS/T34');
+INSERT INTO `petshop`.`cat_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'Playing Rod with Squeaky Magician Mouse', '339', 'IMAGES_CAT_TOYS/T35');
+
+
+
+
+
+
+CREATE TABLE cat_treats_biscuits(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Temptations Cat Treat Seafood Medley', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q1');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Me-O Creamy Treats Salmon', '99', 'IMAGES_CATS_TREATS_BISCUITS/Q2');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Temptations Cat Treat Tuna', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q3');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Temptations Cat Treat Tasty Chicken Flavour', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q4');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Temptations Cat Treat Savoury Salmon', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q5');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Temptations Creamy Purrrr-ee, Salmon & Cheese Flavour', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q6');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Temptations Creamy Purrrr-ee Cat Treats, Maguro and Scallop Flavors', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q7');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Temptations Creamy Purrrr-ee Cat Treats, Chicken & Tuna Flavors', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q8');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Neko Cat Chicken & Tuna', '199', 'IMAGES_CATS_TREATS_BISCUITS/Q9');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Sheba Melty Cat Treat- Sasami Chicken Flavour', '99', 'IMAGES_CATS_TREATS_BISCUITS/Q10');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Jinny Chicken Cat Treat', '119', 'IMAGES_CATS_TREATS_BISCUITS/Q11');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Jinny Seafood Cat Treats', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q12');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Meow chow Liver Bits', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q13');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Matatabi Chewing Sticks', '229', 'IMAGES_CATS_TREATS_BISCUITS/Q14');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Premium Catnip', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q15');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Sunfish and Chicken Twirls Cat Treat', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q16');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Tuna Jerky Strips Cat Treat', '129', 'IMAGES_CATS_TREATS_BISCUITS/Q17');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Neko Cat Chicken & Salmon Cubes', '149', 'IMAGES_CATS_TREATS_BISCUITS/Q18');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Neko Cat Chicken & Fish Spirals', '179', 'IMAGES_CATS_TREATS_BISCUITS/Q19');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Neko Cat Soft Chicken Jerky Sliced', '199', 'IMAGES_CATS_TREATS_BISCUITS/Q20');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Me-O Creamy Treats Chicken & Liver', '99', 'IMAGES_CATS_TREATS_BISCUITS/Q21');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Me-O Creamy Treats Crab Flavour', '99', 'IMAGES_CATS_TREATS_BISCUITS/Q22');
+INSERT INTO `petshop`.`cat_treats_biscuits` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Me-O Creamy', '99', 'IMAGES_CATS_TREATS_BISCUITS/Q23');
+
+
+
+
+
+
+CREATE TABLE cat_leash(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Natural Flea and Tick Cat Collar, One-Size Breakaway Collar', '1400', 'IMAGES_CAT_LEASHES/C1');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Cat Harness with Leash', '299', 'IMAGES_CAT_LEASHES/C2');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Kitten Harness with Leash', '299', 'IMAGES_CAT_LEASHES/C3');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Cat Harness with Leash', '899', 'IMAGES_CAT_LEASHES/C4');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Cat Collar with Neckerchief', '299', 'IMAGES_CAT_LEASHES/C5');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Cat Collar with Bell', '199', 'IMAGES_CAT_LEASHES/C6');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Cat Collar', '199', 'IMAGES_CAT_LEASHES/C7');
+INSERT INTO `petshop`.`cat_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Cat Collar, Reflective, with bell', '299', 'IMAGES_CAT_LEASHES/C8');
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                        
+
+CREATE TABLE dog_food(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Royal Canin Maxi Adult', '3350', 'IMAGES_DOG_FOOD/D1');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'N&D Low Ancestral Grain CHICKEN & POMEGRANATE SENIOR MEDIUM & MAXI', '2250', 'IMAGES_DOG_FOOD/D2');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'N&D LAMB & BLUEBERRY ADULT MINI', '790', 'IMAGES_DOG_FOOD/D3');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'N&D Ocean Grain Free COD, PUMPKIN & ORANGE ADULT MINI', '790', 'IMAGES_DOG_FOOD/D4');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'N&D Quinoa Grain Free WEIGHT MANAGEMENT LAMB', '1090', 'IMAGES_DOG_FOOD/D5');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'N&D Grain Free Pumpkin Chicken & Pomegranate Adult Mini Dog Food', '760', 'IMAGES_DOG_FOOD/D6');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'N&D Grain Free Pumpkin Lamb & Blueberry Adult Medium & Maxi Food', '760', 'IMAGES_DOG_FOOD/D7');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Royal Canin Show Body Condition Large Dog, 15 KGs', '8300', 'IMAGES_DOG_FOOD/D8');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Royal Canin Show Beauty Perfect Small Dog, 8 Kgs', '6140', 'IMAGES_DOG_FOOD/D9');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Royal Canin Maxi Digestive Care', '2500', 'IMAGES_DOG_FOOD/D10');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Royal Canin Maxi Sterilised', '2286', 'IMAGES_DOG_FOOD/D11');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Royal Canin Medium Dermacomfort', '2397', 'IMAGES_DOG_FOOD/D12');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Royal Canin Mini Indoor Adult', '1250', 'IMAGES_DOG_FOOD/D13');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Royal Canin X- Small Adult', '400', 'IMAGES_DOG_FOOD/D14');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Royal Canin Giant Adult', '2620', 'IMAGES_DOG_FOOD/D15');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Royal Canin Maxi Light Weight Care', '2770', 'IMAGES_DOG_FOOD/D16');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Royal Canin Maxi Adult 5+', '2200', 'IMAGES_DOG_FOOD/D17');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Royal Canin Medium Adult 7 +', '1840', 'IMAGES_DOG_FOOD/D18');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Royal Canin Medium Adult', '760', 'IMAGES_DOG_FOOD/D19');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Royal Canin Mini Mature 8+', '1940', 'IMAGES_DOG_FOOD/D20');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Royal Canin Shih Tzu Adult', '1670', 'IMAGES_DOG_FOOD/D21');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Royal Canin Rottweiler Adult', '2510', 'IMAGES_DOG_FOOD/D22');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Royal Canin Rottweiler Puppy', '2630', 'IMAGES_DOG_FOOD/D23');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'Royal Canin Pug Adult', '730', 'IMAGES_DOG_FOOD/D24');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'Royal Canin Great Dane Adult', '9730', 'IMAGES_DOG_FOOD/D25');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('26', 'Royal Canin Golden Retriever Adult', '2660', 'IMAGES_DOG_FOOD/D26');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('27', 'Royal Canin Labrador Retriever Adult', '2600', 'IMAGES_DOG_FOOD/D27');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('28', 'Royal Canin German Shepherd Adult', '2430', 'IMAGES_DOG_FOOD/D28');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('29', 'Royal Canin Dachshund Adult', '520', 'IMAGES_DOG_FOOD/D29');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('30', 'Royal Canin Cocker Spaniel Adult', '2450', 'IMAGES_DOG_FOOD/D30');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'Pedigree Senior Dog food Chicken & Rice', '295', 'IMAGES_DOG_FOOD/D31');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'Pedigree Puppy And Adult Vegetarian Dog Food', '295', 'IMAGES_DOG_FOOD/D32');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'Pedigree Meat & Vegetables', '3400', 'IMAGES_DOG_FOOD/D33');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'Pedigree Pro Adult Weight Management', '1200', 'IMAGES_DOG_FOOD/D34');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'Pedigree Pro Expert Nutrition Active Adult', '1160', 'IMAGES_DOG_FOOD/D35');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('36', 'Pedigree Adult Dry Dog food Meat & Rice', '260', 'IMAGES_DOG_FOOD/D36');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('37', 'Orijen Orignal', '450', 'IMAGES_DOG_FOOD/D37');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('38', 'Orijen Large Breed Puppy Food', '449', 'IMAGES_DOG_FOOD/D38');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('39', 'Orijen Senior', '449', 'IMAGES_DOG_FOOD/D39');
+INSERT INTO `petshop`.`dog_food` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('40', 'Acana Grass- Fed Lamb Dog food', '399', 'IMAGES_DOG_FOOD/D40');
+
+
+
+
+
+
+CREATE TABLE dog_toys(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Junior Mini Ring', '250', 'IMAGE_DOGS_TOYS/J1');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Plush Big bull with Squeaky TPR', '616', 'IMAGE_DOGS_TOYS/J2');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Plush bone toy with Nylon & TPR layer on top', '361', 'IMAGE_DOGS_TOYS/J3');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Jute Rope toy with TPR spike chew centre', '255', 'IMAGE_DOGS_TOYS/J4');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Wiggle Worm', '466', 'IMAGE_DOGS_TOYS/J5');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Forest Friends', '998', 'IMAGE_DOGS_TOYS/J6');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Stuffing Free Big Squeak Gator', `price` = '850', `image_path` = 'IMAGE_DOGS_TOYS/J7' WHERE (`product_id` = '7');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Bone', `price` = '699', `image_path` = 'IMAGE_DOGS_TOYS/J8' WHERE (`product_id` = '8');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Chucky Cow', `price` = '699', `image_path` = 'IMAGE_DOGS_TOYS/J9' WHERE (`product_id` = '9');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Mop Monster Double Stitched', `price` = '650', `image_path` = 'IMAGE_DOGS_TOYS/J10' WHERE (`product_id` = '10');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Sheldon Sheep', `price` = '600', `image_path` = 'IMAGE_DOGS_TOYS/J11' WHERE (`product_id` = '11');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Prickle Hogs', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J12' WHERE (`product_id` = '12');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Critter Tug Assorted Double Stitched', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J13' WHERE (`product_id` = '13');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Tuff Squeaks Unstuffed Goose', `price` = '549', `image_path` = 'IMAGE_DOGS_TOYS/J14' WHERE (`product_id` = '14');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Toy Figures with Rope Plush', `price` = '349', `image_path` = 'IMAGE_DOGS_TOYS/J15' WHERE (`product_id` = '15');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Tiny Tots Barn Buddies', `price` = '299', `image_path` = 'IMAGE_DOGS_TOYS/J16' WHERE (`product_id` = '16');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Toy Dog', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J17' WHERE (`product_id` = '17');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Sporting Jumper', `price` = '699', `image_path` = 'IMAGE_DOGS_TOYS/J18' WHERE (`product_id` = '18');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'ORKA Bone', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J19' WHERE (`product_id` = '19');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Gorilla Ball', `price` = '199', `image_path` = 'IMAGE_DOGS_TOYS/J20' WHERE (`product_id` = '20');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Push to Mute Rugby Ball', `price` = '799', `image_path` = 'IMAGE_DOGS_TOYS/J21' WHERE (`product_id` = '21');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'ORKA Petite Pair Chew, Pine Cone & Bone', `price` = '499', `image_path` = 'IMAGE_DOGS_TOYS/J22' WHERE (`product_id` = '22');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Gorilla Spiky Bone', `price` = '399', `image_path` = 'IMAGE_DOGS_TOYS/J23' WHERE (`product_id` = '23');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Mojo Friends', `price` = '299', `image_path` = 'IMAGE_DOGS_TOYS/J24' WHERE (`product_id` = '24');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Tugger Natural Rubber Toy', `price` = '799', `image_path` = 'IMAGE_DOGS_TOYS/J25' WHERE (`product_id` = '25');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'Mini Tug Max', '349', 'IMAGE_DOGS_TOYS/J31');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Sporting Jumper on a Rope', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J26' WHERE (`product_id` = '26');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'Mini Bone Tug', '299', 'IMAGE_DOGS_TOYS/J32');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Flea Flicker Football', `price` = '599', `image_path` = 'IMAGE_DOGS_TOYS/J27' WHERE (`product_id` = '27');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Sporting Fun-MOT Long Natural Rubber Toy', `price` = '499', `image_path` = 'IMAGE_DOGS_TOYS/J28' WHERE (`product_id` = '28');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Natural Rubber Ball', `price` = '449', `image_path` = 'IMAGE_DOGS_TOYS/J29' WHERE (`product_id` = '29');
+UPDATE `petshop`.`dog_toys` SET `product_name` = 'Natural Rubber Bouncy Ball', `price` = '299', `image_path` = 'IMAGE_DOGS_TOYS/J30' WHERE (`product_id` = '30');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'Ball on a Rope Natural Rubber', '249', 'IMAGE_DOGS_TOYS/J33');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'Turbo Kick Soccer Ball', '299', 'IMAGE_DOGS_TOYS/J34');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'Peanut Butter Tuff Balls', '259', 'IMAGE_DOGS_TOYS/J35');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('36', 'Mint Tuff Balls', '249', 'IMAGE_DOGS_TOYS/J36');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('37', 'Rustling Bone', '449', 'IMAGE_DOGS_TOYS/J37');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('38', 'Ball with Phosphorescent Rope', '249', 'IMAGE_DOGS_TOYS/J38');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('39', 'Sport Ball', '199', 'IMAGE_DOGS_TOYS/J39');
+INSERT INTO `petshop`.`dog_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('40', 'Smiley Dumbbell with Motifs', '349', 'IMAGE_DOGS_TOYS/J40');
+
+
+
+
+
+
+CREATE TABLE dog_treat_biscuits_chewys(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Pedigree DentaStix', '129', 'IMAGES_DOGS_TREATS_BISCUITS/Z1');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Chip Chops Chicken & Codfish Sandwich', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z2');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Gnawlers Calcium Milk Bones Dog Treats', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z3');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Dog Cookie Liver', '349', 'IMAGES_DOGS_TREATS_BISCUITS/Z4');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Calcium Biscuit For All Breeds', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z5');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Denta Star Sticks', '449', 'IMAGES_DOGS_TREATS_BISCUITS/Z6');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Chip Chops with Chicken & Calcium Bone', '229', 'IMAGES_DOGS_TREATS_BISCUITS/Z7');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Chip Chops Chicken Sausages', '175', 'IMAGES_DOGS_TREATS_BISCUITS/Z8');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Pedigree Jumbone for Adult Dogs', '129', 'IMAGES_DOGS_TREATS_BISCUITS/Z9');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Himalaya Healthy Treats - Adult', '49', 'IMAGES_DOGS_TREATS_BISCUITS/Z10');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Gnawlers Bone Dog Treat - Chicken Flavour', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z11');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Gnawlers Calcium Milk Stick Dog Treat', '299', 'IMAGES_DOGS_TREATS_BISCUITS/Z12');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Goodies Spiral Twist Sticks Chlorophyll & Mint', '499', 'IMAGES_DOGS_TREATS_BISCUITS/Z13');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Goodies Spiral Twist Sticks Milk & Cheese', '499', 'IMAGES_DOGS_TREATS_BISCUITS/Z14');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Goodies Spiral Twist Sticks Chicken & Bacon', '499', 'IMAGES_DOGS_TREATS_BISCUITS/Z15');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Goodies Spiral Twist Sticks BBQ & Lamb', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z16');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Goodies Milky Bones', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z17');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Goodies Energy Dog Treats - Chlorophyll', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z18');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Goodies Mix Sticks Dog Treat', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z19');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Goodies Energy Dog Treats - Chicken Liver', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z20');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Goodies Energy Treats - Lamb', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z21');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Jerhigh Salami Dog treats', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z22');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Jerhigh- Hot dog bar - Chicken & Vegetable', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z23');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'Jerhigh- hot dog bar- Chicken', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z24');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'JerHigh Hotdog-Bar Dog Treat - Liver', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z25');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('26', 'Jerhigh Bacon Strips', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z26');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('27', 'JerHigh Stix Bites', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z27');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('28', 'JerHigh Carrot Stix', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z28');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('29', 'JerHigh Duo Stick Dog Treat - Milk with Banana', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z29');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('30', 'JerHigh Duo Stick Dog Treat - Milk with Strawberry Stick', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z30');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'JerHigh Duo Stick Dog Treat - Spinach with Cheese Stick', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z31');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'JerHigh Duo Stick Dog Treat - Chicken with Cheese', '149', 'IMAGES_DOGS_TREATS_BISCUITS/Z32');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'JerHigh Liv Stix', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z33');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'JerHigh Spinach Style Stix', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z34');
+INSERT INTO `petshop`.`dog_treat_biscuits_chewys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'JerHigh Stix', '199', 'IMAGES_DOGS_TREATS_BISCUITS/Z35');
+
+
+
+
+CREATE TABLE dog_leash(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Trixie Classic Collar', '199', 'IMAGES_DOG_LEASHES/L1');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Basil Shock Absorbing Stretch leash', '899', 'IMAGES_DOG_LEASHES/L2');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'Basil Rope Leashes', '299', 'IMAGES_DOG_LEASHES/L3');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Basil Leashes', '229', 'IMAGES_DOG_LEASHES/L4');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Basil Collars', '149', 'IMAGES_DOG_LEASHES/L5');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Giant XL Tape', '5999', 'IMAGES_DOG_LEASHES/L6');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'USB Flash Light Ring Collar', '1199', 'IMAGES_DOG_LEASHES/L7');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Standard Large Tape', '1999', 'IMAGES_DOG_LEASHES/L8');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Standard Cord', '1200', 'IMAGES_DOG_LEASHES/L9');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'Fun Tape', '1350', 'IMAGES_DOG_LEASHES/L10');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Neon Reflect Tape', '1999', 'IMAGES_DOG_LEASHES/L11');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Classic Tape', '1799', 'IMAGES_DOG_LEASHES/L12');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Trixie Long Link Choke Chain', '899', 'IMAGES_DOG_LEASHES/L13');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'Trixie Chain Leash with Nylon Hand Loop', '699', 'IMAGES_DOG_LEASHES/L14');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Trixie Choke Chain', '249', 'IMAGES_DOG_LEASHES/L15');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'Trixie Set of 6 Puppy Collars', '599', 'IMAGES_DOG_LEASHES/L16');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'Trixie Collar with Neckerchief', '349', 'IMAGES_DOG_LEASHES/L17');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'Trixie Waist Belt with Leash', '1999', 'IMAGES_DOG_LEASHES/L18');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Trixie Show Leash', '299', 'IMAGES_DOG_LEASHES/L19');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Trixie Softline Elegance Collar', '499', 'IMAGES_DOG_LEASHES/L20');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Trixie Classic Adjustable Leash , 3 Stage', '349', 'IMAGES_DOG_LEASHES/L21');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Trixie Premium Stop - The- Pull Collar', '299', 'IMAGES_DOG_LEASHES/L22');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'Trixie Extra Wide Premium Collar', '1099', 'IMAGES_DOG_LEASHES/L23');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'Trixie Premium Leash', '699', 'IMAGES_DOG_LEASHES/L24');
+INSERT INTO `petshop`.`dog_leash` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'Trixie Premium Collar', '199', 'IMAGES_DOG_LEASHES/L25');
+
+
+
+
+
+
+
+CREATE TABLE bird_food(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('1', 'Vitapol Economic Food For Budgies - 1.2 kg', '520', 'IMAGES_BIRD_FOOD/B1');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('2', 'Zupreem Natures Promise Timothy Naturals Guinea Pig Food - 2.26 kg', '1607', 'IMAGES_BIRD_FOOD/B2');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('3', 'ZuPreem NutBlend with Natural Nut Flavor Conure & Parrot Food - 1.5 kg', '2050', 'IMAGES_BIRD_FOOD/B3');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('4', 'Vitapol Food for Big Parrot - 2.5 kg', '2300', 'IMAGES_BIRD_FOOD/B4');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('5', 'Vitapol Food For Big Parrots', '940', 'IMAGES_BIRD_FOOD/B5');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('6', 'Vitapol Economic Food For Guinea Pig - 1.2 kg', '525', 'IMAGES_BIRD_FOOD/B6');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('7', 'Vitapol Food for Guinea Pig - 400 g', '250', 'IMAGES_BIRD_FOOD/B7');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('8', 'Vitapol Fruit Food for Hamster - 400 g', '230', 'IMAGES_BIRD_FOOD/B8');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('9', 'Vitapol Food for Zebra Finch - 500 g', '250', 'IMAGES_BIRD_FOOD/B9');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('10', 'Seed Blend of 9 Grains & Nuts, Bird Feeder Food Refill', '180', 'IMAGES_BIRD_FOOD/B10');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('11', 'BOLTZ Bird Food for Budgies - Mix Seeds 1.2 KG', '399', 'IMAGES_BIRD_FOOD/B11');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('12', 'Mix Seeds for Outside Wild Birds, Indian Parrot', '185', 'IMAGES_BIRD_FOOD/B12');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('13', 'Nature Forever All Life Stages Bird Seeds Feeder Mix', '250', 'IMAGES_BIRD_FOOD/B13');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('14', 'Boltz Adult Bird Food for Cockatiel & Lovebirds Mix Seeds, Canary Seed', '425', 'IMAGES_BIRD_FOOD/B14');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('15', 'Nature Forever Millet Magic Bird Food for All Life Stages, Vegetable Flavor', '210', 'IMAGES_BIRD_FOOD/B15');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('16', 'Nature Forever All Life Stages Bird Seeds Feeder ', '250', 'IMAGES_BIRD_FOOD/B16');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('17', 'Boltz Adult Bird Food for Cockatiel & Lovebirds Mix Seeds', '699', 'IMAGES_BIRD_FOOD/B17');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('18', 'BOLTZ All Life Stages Natural Mineral Block with Cuttlefish Bone 250 gm for Birds', '299', 'IMAGES_BIRD_FOOD/B18');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('19', 'Boltz Bird Food for Sparrow, Finches', '189', 'IMAGES_BIRD_FOOD/B19');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('20', 'PETSLIFE premium daily bird food - Fruit mix, 400g', '260', 'IMAGES_BIRD_FOOD/B20');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('21', 'BOLTZ Premium Foxtail Millet (Kangni Seeds) 500 gm, Fortified with Spirulina', '189', 'IMAGES_BIRD_FOOD/B21');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('22', 'BOLTZ Striped Sunflower Seeds- 1 Kg for Lovebirds, Cockatiel', '349', 'IMAGES_BIRD_FOOD/B22');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('23', 'Happy Wings Wild Birds Food - 900 Grams Pack of Indian', '300', 'IMAGES_BIRD_FOOD/B23');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('24', 'Afterone Store Premium Pearl Millet Bajra Bird Food 1 Kg', '150', 'IMAGES_BIRD_FOOD/B24');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('25', 'ainsons Pet Products Big Parrot Food ', '250', 'IMAGES_BIRD_FOOD/B25');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('26', 'Foodie Puppies Bird Food for Finches - 1kg', '299', 'IMAGES_BIRD_FOOD/B26');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('27', 'Thor Natural and Healthy Seed Mix Bird Food', '399', 'IMAGES_BIRD_FOOD/B27');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('28', 'Petslife Fruitmix Small Bird Food, 150gm', '199', 'IMAGES_BIRD_FOOD/B28');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('29', 'Boltz Parrot Food 1Kg for Big Parrot,African Grey Parrot', '449', 'IMAGES_BIRD_FOOD/B29');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('30', 'PETSLIFE Bird Food for Mynah, 1 kg', '475', 'IMAGES_BIRD_FOOD/B30');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('31', 'Vitapol Economic Bird Food for Cockatiel 1.2-kg', '580', 'IMAGES_BIRD_FOOD/B31');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('32', 'Boltz Natural Hand Feeding Formula for Birds ', '449', 'IMAGES_BIRD_FOOD/B32');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('33', 'Boltz Adult Bird Food for Cockatiel & Lovebirds Mix Seeds', '449', 'IMAGES_BIRD_FOOD/B33');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('34', 'Boltz Adult Bird Food for Cockatiel & Lovebirds Mix Seeds', '700', 'IMAGES_BIRD_FOOD/B34');
+INSERT INTO `petshop`.`bird_food` (`product_id`, `product_name`, `price`, `image_Path`) VALUES ('35', 'BOFOS Bajra Seeds (Pearl Millet) Birds Food for Doves, Pigeons, Canaries', '339', 'IMAGES_BIRD_FOOD/B35');                                                                                                                                                              
+
+
+
+
+
+CREATE TABLE bird_toys(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Buraq 6 Pcs Bird Toys Set - for Hanging Swing | Holding | Chewing & Playing', '499', 'IMAGES_BIRD_TOYS/R1');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Jainsons Pet Products® Bird Nest with Chewing Toys-Hanging Bird Cage Toys', '399', 'IMAGES_BIRD_TOYS/R2');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'The Pets Company Bird Interactive Bell Ball, Bird Toy', '199', 'IMAGES_BIRD_TOYS/R3');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Jainsons Pet Products Bird Toys Parrot Chew Toy', '299', 'IMAGES_BIRD_TOYS/R4');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'PETZOO Bird Toys Combo of 10 Cage Accessory for Budgies', '999', 'IMAGES_BIRD_TOYS/R5');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'Jainsons Pet Products Bird Swing Toys, Chew Toys with Hanging Cage Toys ', '499', 'IMAGES_BIRD_TOYS/R6');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'Boltz Bird Ladder and Hanging chewable Wooden Bird Toys', '349', 'IMAGES_BIRD_TOYS/R7');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'REENBIRDS Combo of 3 Bird Toys', '349', 'IMAGES_BIRD_TOYS/R8');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'Jainsons Pet Products® Bird Toy Parrot Chewing Toys', '249', 'IMAGES_BIRD_TOYS/R9');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'The Pets Company Bird Interactive Bell Ball, Bird Toy', '199', 'IMAGES_BIRD_TOYS/R10');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Emily Pets Parrot Toys Chewing Bird Toy Cuttlebone Beak Grinding Stone Cage Hanging Toys', '199', 'IMAGES_BIRD_TOYS/R11');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Congo 55X24 cm Premium Non-Toxic Edible Colored Chewing Toy', '269', 'IMAGES_BIRD_TOYS/R12');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'KSK 1 Pcs Birds Toy for Cage,Parrot Hanging Swing with Mirror', '249', 'IMAGES_BIRD_TOYS/R13');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'KUTKUT 3Pack Bird Chewing Shredding Toys', '949', 'IMAGES_BIRD_TOYS/R14');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'GREENBIRDS TOYS Pack Of 6 Pcs Include Paper Shredded Foraging Chew Toy', '799', 'IMAGES_BIRD_TOYS/R15');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'GREENBIRDS Combo of 3 Bird Toys Wooden Ladder', '349', 'IMAGES_BIRD_TOYS/R16');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'KSK 9.5 Inches Bird Activity cnter Medium Bird Playground for Cockatiels', '1800', 'IMAGES_BIRD_TOYS/R17');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'KSK Untreated Cotton Rope Climbing Net-Small Bird', '499', 'IMAGES_BIRD_TOYS/R18');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'Qpets® 9 in 1 Birds Toys Set Parrot Toy', '949', 'IMAGES_BIRD_TOYS/R19');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'KSK Bird Chewing Toy - Parrot Cage Bite Toys Wooden Block Bird Parrot Toys', '249', 'IMAGES_BIRD_TOYS/R20');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('21', 'Wooden Play Toy ', '599', 'IMAGES_BIRD_TOYS/R21');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('22', 'Congo 53X5cm Premium Edible Colored Hanging & Chewing Toy ', '129', 'IMAGES_BIRD_TOYS/R22');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('23', 'KSK 1 Pcs Parrot Chewing Toy Bird Bite Toy', '299', 'IMAGES_BIRD_TOYS/R23');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('24', 'KSK Natural Wooden Bird Block Toys ', '199', 'IMAGES_BIRD_TOYS/R24');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('25', 'Cosy tossy Small Birds Parrot Perch Toys', '99', 'IMAGES_BIRD_TOYS/R25');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('26', 'Buraq 3 Pcs Bird Toys Combo', '379', 'IMAGES_BIRD_TOYS/R26');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('27', 'KSK Wooden Parrot Cubes Blocks Chewing Toys', '199', 'IMAGES_BIRD_TOYS/R27');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('28', 'Cockatiel, Lovebirds, Small Parakeets Sun Conure Size Bird & use as Chewing Toy', '149', 'IMAGES_BIRD_TOYS/R28');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('29', 'Jainsons Pet Products Bird Toys ', '299', 'IMAGES_BIRD_TOYS/R29');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('30', 'Petzlifeworld (Pack of 3) Bird Interactive Bell Ball, Bird Toy', '199', 'IMAGES_BIRD_TOYS/R30');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('31', 'Congo Exclusive 55X37 Cm Edible Non-Toxic Colored Playing & Chewing Toy', '449', 'IMAGES_BIRD_TOYS/R31');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('32', 'Ksk Natural Wooden Bridge, Chewing,Hanging Toy', '349', 'IMAGES_BIRD_TOYS/R32');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('33', 'KSK Wooden Parrot Cubes Blocks Chewing Toys', '199', 'IMAGES_BIRD_TOYS/R33');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('34', 'KSK Playful Wooden Hanging Swing Toy ', '199', 'IMAGES_BIRD_TOYS/R34');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('35', 'KSK Untreated Cotton Rope Climbing Net-Small Bird', '499', 'IMAGES_BIRD_TOYS/R35');
+INSERT INTO `petshop`.`bird_toys` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('36', 'Firstly Trader Colourful Bird Toy ', '499', 'IMAGES_BIRD_TOYS/R36');                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+
+
+
+
+CREATE TABLE bird_cage(product_id INT PRIMARY KEY, product_name VARCHAR(100) , price NUMERIC(7,2) , image_path VARCHAR(100) );
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('1', 'Cket Bird House 3 Piece Combo Nest & Breeding Box Handmade Openable Roof Bird Cage', '799', 'IMAGES_BIRD_HOUSE/H1');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('2', 'Cockatiel Cage Hammock Large Bird', '799', 'IMAGES_BIRD_HOUSE/H2');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('3', 'LIVEONCE Bird House Duplex in Coir for Cage', '299', 'IMAGES_BIRD_HOUSE/H3');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('4', 'Ammaieesan organic wood love birds cage - Small Size in wood and Clay ', '1299', 'IMAGES_BIRD_HOUSE/H4');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('5', 'Jainsons Pet Products Parakeet Bird Cage', '1999', 'IMAGES_BIRD_HOUSE/H5');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('6', 'TAIYO PLUSS DISCOVERY® Bird House Hammock/Size: Small', '499', 'IMAGES_BIRD_HOUSE/H6');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('7', 'ZENRISE® Budgies Love Birds Terracotta Earthenware Pot Bird House', '199', 'IMAGES_BIRD_HOUSE/H7');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('8', 'Blue Cage for Bazrri Birds', '799', 'IMAGES_BIRD_HOUSE/H8');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('9', 'S A Enterprises House Shape Bird cage', '1050', 'IMAGES_BIRD_HOUSE/H9');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('10', 'CC Enterprises Big Bird Cage Home for Buddies Cage', '999', 'IMAGES_BIRD_HOUSE/H10');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('11', 'Petzlifeworld 2 feet Black Partition Birds Cage ', '1999', 'IMAGES_BIRD_HOUSE/H11');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('12', 'Buraq 2 Ft Birds Cage With 2 Gate', '1699', 'IMAGES_BIRD_HOUSE/H12');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('13', 'Buraq 30 Inch Large Bird Cage', '4999', 'IMAGES_BIRD_HOUSE/H13');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('14', 'LAMBENSY Brass Beautiful Bird Cage', '12999', 'IMAGES_BIRD_HOUSE/H14');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('15', 'Enakshi Retaining ScrewFitting Screws for Bird House Cages ', '400', 'IMAGES_BIRD_HOUSE/H15');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('16', 'LIVEONCE Natural Bird nest for Cages and breeding', '499', 'IMAGES_BIRD_HOUSE/H16');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('17', 'KSK Paw Grinding Bird Perch Natural Wood Stand Cage', '499', 'IMAGES_BIRD_HOUSE/H17');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('18', 'KSK 3 Stairs 47\'\' Parrot Birds Perch PlatformToy Cage Wooden Stand', '3499', 'IMAGES_BIRD_HOUSE/H18');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('19', 'ULTECHNOVO 1 Set Classic Round Bird Cage with Feeder Hanging Bird House Cage', '3499', 'IMAGES_BIRD_HOUSE/H19');
+INSERT INTO `petshop`.`bird_cage` (`product_id`, `product_name`, `price`, `image_path`) VALUES ('20', 'Perches Natural Wood Play Stand Gym Parrot Playground', '4499', 'IMAGES_BIRD_HOUSE/H20');
+
+
+
+
+CREATE TABLE `user` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_email` varchar(100) NOT NULL,
+  `user_password` varchar(100) NOT NULL,
+  `user_session_id` varchar(100) NOT NULL,
+   PRIMARY KEY (user_id)
+) 
+

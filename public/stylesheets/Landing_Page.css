@@ -1,0 +1,89 @@
+#Top_Categories a {
+    text-decoration: none;   
+}
+
+#Top_Categories a:hover{
+    text-decoration: 20px solid #fe6803 !important;   
+    
+}
+
+#Nav_Image_Div {
+    width: 100%;
+    height: 55em;
+    background-image: url('/images/LP_BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#Categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0em 3em;
+}
+
+#Categories .card {
+    width: 20em;
+    height: 23em;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 1em;
+    margin: 2em 1em;
+    font-size: 1rem;
+    transition: all 0.3s ease-out;
+}
+
+#Categories .card:hover {
+    transform: scale(1.05);
+}
+
+#Categories div {
+    text-align: center;
+    color: #000000;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#Top_Categories .card {
+    width: 19em;
+    height: 20em;
+    border-radius: 10em;
+}
+
+#Best_Prices_Text {
+    font-size: 2.5em;
+    margin-top: 7em;
+}
+
+#Best__prices {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#Best__prices img {
+    width: 15em;
+    height: 20em;
+    margin: 2em;
+}
+
+#Good_Text {
+    text-align: center;
+    margin: 8em 0 10em;
+}
+
+#Good_Text_Image {
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+}
+
+#Good_Text p {
+    margin: 0;
+    font-size: 3.3em;
+    font-weight: 600;
+    color: #fe6803;
+}

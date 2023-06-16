@@ -1,0 +1,71 @@
+#Footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+    font-size: 0.35em;
+    padding-bottom: 10em;
+    margin-top: 10em;
+}
+
+#Boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ; 
+    justify-content: center;
+}
+
+#Footer #Brand_Name {
+    color: white;
+    font-size: 3rem;
+    padding: 0 0.7em 0.7em;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#Boxes .Footer_Box p {
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.2em 1em;
+    font-weight: 100;
+}
+
+#Footer #To_Be_Orange span {
+    color: #ff6a03;
+}
+
+#Footer #To_Be_Orange {
+    color: #ff6a03;
+}
+
+#Boxes .Footer_Box:nth-child(1) p {
+    text-align: left;
+}
+
+#Boxes .Footer_Box:nth-child(2) p:nth-child(1) {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 6em;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#Boxes .Footer_Box:nth-child(3) p:nth-child(1) {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 6em;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#Boxes .Footer_Box {
+    color: white;
+    margin: 3em;
+    width: 80em;
+}
+
+#Boxes .Footer_Box span {
+    color: white;
+}
+
+#Boxes .Footer_Box:nth-child(1) #Social_Media_Link svg {
+    margin: 0 1em;
+}

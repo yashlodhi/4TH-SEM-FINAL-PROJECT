@@ -1,0 +1,78 @@
+<%- include('Layouts/Header') %>
+    <link rel="stylesheet" href="stylesheets/Landing_Page.css">
+    </head>
+
+    <body>
+        <div id="Nav_Image_Div">
+            <%- include('Layouts/Nav') %>
+                <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                            <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                        d="M0,20L60,18.3C120,17,240,13,360,16.7C480,20,600,30,720,43.3C840,57,960,73,1080,73.3C1200,73,1320,57,1440,46.7C1560,37,1680,33,1800,31.7C1920,30,2040,30,2160,31.7C2280,33,2400,37,2520,35C2640,33,2760,27,2880,28.3C3000,30,3120,40,3240,48.3C3360,57,3480,63,3600,58.3C3720,53,3840,37,3960,26.7C4080,17,4200,13,4320,20C4440,27,4560,43,4680,53.3C4800,63,4920,67,5040,65C5160,63,5280,57,5400,50C5520,43,5640,37,5760,40C5880,43,6000,57,6120,60C6240,63,6360,57,6480,51.7C6600,47,6720,43,6840,38.3C6960,33,7080,27,7200,33.3C7320,40,7440,60,7560,56.7C7680,53,7800,27,7920,23.3C8040,20,8160,40,8280,51.7C8400,63,8520,67,8580,68.3L8640,70L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z">
+                    </path>
+                </svg>
+        </div>
+
+        <div id="Top_Categories">
+            <p>Top <span>Categories</span></p>
+            <div id="Categories">
+                <a href="/dog-toys">
+                    <div><img src="/images/9.png" class="card">Dog Toy</div>
+                </a>
+                <a href="/cat-foods">
+                    <div><img src="/images/10.jpg" class="card">Cat Food</div>
+                </a>
+                <a href="/bird-cages">
+                    <div><img src="/images/11.png" class="card">Bird Cage</div>
+                </a>
+                <a href="/dog-foods">
+                    <div><img src="/images/12.jpg" class="card">Dog Food</div>
+                </a>
+            </div>
+        </div>
+
+        <div id="Top_Sellers">
+            <p>Top <span>Sellers</span></p>
+            <div id="Categories">
+                <div><img src="/images/1.png" class="card"><span>&#x20B9;2,000</span></div>
+                <div><img src="/images/2.png" class="card"><span>&#x20B9;2,800</span></div>
+                <div><img src="/images/3.png" class="card"><span>&#x20B9;500</span></div>
+                <div><img src="/images/4.jpg" class="card"><span>&#x20B9;3,000</span></div>
+            </div>
+        </div>
+
+        <p id="Best_Prices_Text">Dog Foods <span>@Best Prices</span></p>
+        <div id="Best__prices">
+            <img src="/images/5.png">
+            <img src="/images/13.png">
+            <img src="/images/21.png">
+            <img src="/images/7.png">
+            <img src="/images/6.png">
+            <img src="/images/8.png">
+            <img src="/images/14.png">
+            <img src="/images/20.png">
+        </div>
+
+        <div id="Good_Text">
+            <div><img src="/images/Doggy.png" id="Good_Text_Image"></div>
+            <p>What your pet needs, <span>when they need it.</span></p>
+        </div>
+
+        <p id="Best_Prices_Text">Cat Foods <span>@Best Prices</span></p>
+        <div id="Best__prices">
+            <img src="/images/15.png">
+            <img src="/images/16.png">
+            <img src="/images/17.png">
+            <img src="/images/18.png">
+            <img src="/images/19.png">
+            <img src="/images/22.png">
+            <img src="/images/23.png">
+        </div>
+
+        <%- include('Layouts/Footer') %>

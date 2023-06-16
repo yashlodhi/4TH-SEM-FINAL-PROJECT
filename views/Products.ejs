@@ -1,0 +1,31 @@
+<%- include('Layouts/Header') %>
+<link rel="stylesheet" href="stylesheets/Products.css">
+</head>
+<body>
+<%- include('Layouts/Nav') %>
+        <div id="Heading">
+            <p><%= Text %></p>
+        </div>
+
+        <div id="Products">
+            <% foodArray.forEach(card=> { %>
+                <div class="card">
+                    <p id="Offer_Banner">Save 20%</p> 
+                    <img alt="Product_Image" src="/images/<%=card.image_path %>.png">
+                    <p id="Product_name">
+                        <%= card.product_name %>
+                    </p>
+                    <p id="Price">
+                        Rs. : <%= card.price %> /- <span> Rs. : <%= Math.round(card.price*(10/8))%> </span>
+                    </p>
+                    <form action="/cart" method="post">
+                        <button id="ADD_TO_CART_BUTTON" type="submit" name="product" value="<%=card.product_id%>">Add To Cart</button>
+                    </form>
+                </div>
+                <% }) %>
+        </div>
+
+        <body>
+
+
+            <%- include('Layouts/Footer') %>

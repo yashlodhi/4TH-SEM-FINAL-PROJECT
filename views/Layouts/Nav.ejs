@@ -1,0 +1,59 @@
+<nav>
+
+
+
+
+
+    <div id="Nav_Top">
+        <div id="Nav_Left">
+            <span id="Name">House-O-Pets</span>
+            <div id="menu-bar">
+                <ul>
+                    <li><a id="active" href="/">Home</a></li>
+                    <li><a href="#">Shop</a>
+                        <div id="sub-menu-1">
+                            <ul>
+                                <li><a href="/dog-foods">Dog Foods</a></li>
+                                <li><a href="/dog-treats">Dog Treats</a></li>
+                                <li><a href="/dog-toys">Dog Toys</a></li>
+                                <li><a href="/dog-leashes">Dog Leashes</a></li>
+                                <li><a href="/cat-foods">Cat Foods</a></li>
+                                <li><a href="/cat-treats">Cat Treats</a></li>
+                                <li><a href="/cat-toys">Cat Toys</a></li>
+                                <li><a href="/cat-leashes">Cat Leashes</a></li>
+                                <li><a href="/bird-foods">Bird Foods</a></li>
+                                <li><a href="/bird-toys">Bird Toys</a></li>
+                                <li><a href="/bird-cages">Bird Cages</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div id="Searchbox">
+            <form>
+                <input id="searchbox" type="search" placeholder="Search ">
+                <button id="searchbox_button"><span class="material-symbols-outlined">search</span></button>
+            </form>
+        </div> -->
+
+        <div id="Nav_Last">
+            <div>
+                <!-- <a href="#"><span class="material-symbols-outlined">search</span></a> -->
+                <a href="/cart"><span class="material-symbols-outlined">shopping_cart</span></a>
+                <% if(session.user_id) { %>
+                    <a href="/logout"
+                        style="font-size:0.9em;border: 2px solid white;padding:0.2em;border-radius:0.5em;"><span
+                            class="material-symbols-outlined"></span>Logout</a>
+                    <% } else { %>
+                        <a href="/login"
+                            style="font-size:0.9em;border: 2px solid white;padding:0.2em;border-radius:0.5em;"><span
+                                class="material-symbols-outlined"></span>LogIn</a>
+
+                        <% } %>
+            </div>
+        </div>
+    </div>
+</nav>
